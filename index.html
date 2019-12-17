@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bogdan Matei </title>
+  <meta charset="UTF-8">
+  <meta name="description" content="add a description">
+  <meta name="keywords" content="keywords, such as coding languages you know">
+  <meta name="author" content="Your Name">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+  <div class="page-links">
+    <ul class="nav justify-content-center mt-5">
+      <li class="nav-item">
+        <a href="#" onclick="ronpaOpen()">Ronpa</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" onclick="swapsiesOpen()">Swapsies</a>
+      </li>
+      <li class="nav-item">
+        <a href="#">Cocktail Recipes</a>
+      </li>
+    </ul>
+
+    <!-- The ronpa project overlay -->
+    <div id="ronpaNav" class="overlay">
+      <!-- Button to close the overlay navigation -->
+      <a href="javascript:void(0)" class="closebtn" onclick="ronpaClose()">&times</a>
+      <!-- Overlay content -->
+      <div class="overlay-content">
+        <div class="container">
+          <div class=" project">
+            <h1>RONPA!</h1>
+            <img src="#" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of ronpa project overlay -->
+
+    <!-- The swapsies project overlay -->
+    <div id="swapsiesNav" class="overlay">
+      <!-- Button to close the overlay navigation -->
+      <a href="javascript:void(0)" class="closebtn" onclick="swapsiesClose()">&times</a>
+      <!-- Overlay content -->
+      <div class="overlay-content">
+        <div class="container">
+          <div class=" project mb-5">
+            <h1>Swapsies</h1>
+            <p> PROJECT OVERVIEW:
+              Fully-animated RPG created in Rails to make learning the basics of Ruby more fun and exciting. Features working combat, equipment, leveling/experience, and leaderboard systems.
+
+              CONCEPT:
+              During my time as a student at Le Wagon, I would often practice multiple-choice flashcards while not at school in order to reinforce what I learned. Although helpful, flashcards are not exactly the most exciting activity. Thus, after a brief discussion with two classmates, Code Wizard was born - a web app which gamifies multiple choice flashcards.
+
+              CHALLENGES & SOLUTIONS:
+              The biggest challenge in creating Code Wizard was ensuring the battle logic and associated animations worked as intended. This was difficult because we wanted to ensure data and the view was being updated without refreshing the page.
+
+
+              To overcome this, we used JavaScript to render partials for each of the core "pages" (leaderboard, shop, profile) and the question logic (advance to next question or repeat question), as well as used gifs to animate the movement and attack actions.
+
+              Fully-animated RPG created in Rails to make learning the basics of Ruby more fun and exciting. Features working combat, equipment, leveling/experience, and leaderboard systems.
+
+              CONCEPT:
+              During my time as a student at Le Wagon, I would often practice multiple-choice flashcards while not at school in order to reinforce what I learned. Although helpful, flashcards are not exactly the most exciting activity. Thus, after a brief discussion with two classmates, Code Wizard was born - a web app which gamifies multiple choice flashcards.
+
+              CHALLENGES & SOLUTIONS:
+              The biggest challenge in creating Code Wizard was ensuring the battle logic and associated animations worked as intended. This was difficult because we wanted to ensure data and the view was being updated without refreshing the page.
+
+
+              To overcome this, we used JavaS
+            </p>
+            <img src="#" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of swapsies project overlay -->
+
+      <div class="main d-flex justify-content-center" style="background-color: #404140">
+        <div class="about text-center d-flex ">
+          <img src="img/bog.jpg" alt="profile picture">
+          <h1>Bogdan Matei<br>
+            <hr>
+            Full Stack Developer
+          </h1>
+            <button onclick="document.getElementById('details').classList.toggle('open');">About</button>
+
+          <ul class="list-inline socials">
+            <li><a href="https://www.linkedin.com/in/mateibogdan/"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/bgdmatei"><i class="fab fa-github"></i></a></li>
+            <li><a href="mailto: matei90bogdan@yahoo.com"><i class="fas fa-envelope"></i></a></li>
+          </ul>
+        </div>
+        <div id="details">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        </div>
+      </div>
+
+
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/5b2af09fbd.js" crossorigin="anonymous"></script>></script>
+  <script>
+    /* Open */
+    function ronpaOpen() {
+      document.getElementById("ronpaNav").style.height = "100%";
+    }
+    function swapsiesOpen() {
+      document.getElementById("swapsiesNav").style.height = "100%";
+    }
+
+    /* Close */
+    function ronpaClose() {
+      document.getElementById("ronpaNav").style.height = "0%";
+    }
+    function swapsiesClose() {
+      document.getElementById("swapsiesNav").style.height = "0%";
+    }
+  </script>
+</body>
+</html>
