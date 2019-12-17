@@ -1,4 +1,19 @@
+button {
+  position: absolute;
+  top: 270px;
+  left: 53%;
+  padding: 8px 24px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #404140;
+  transition: all 0.3s ease-in 0s;
+}
 
+button:hover {
+  /*border-color: #BF4743;*/
+  color: #404140;
+  background-color: #fff;
+}
 
 .page-links {
   overflow: hidden;
@@ -106,6 +121,7 @@
   background-color: #404140;
   color: #fff;
   font-size: 16px;
+  left: 18%;
 }
 
 .open {
