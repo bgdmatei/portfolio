@@ -1,0 +1,10 @@
+{
+  "name": "portofolio",
+  "version": "1.0.0",
+  "description": "My portofolio",
+  "main": "index.js",
+  "repository": "https://github.com/bgdmatei/portofolio",
+  "author": "Bogdan",
+  "license": "MIT",
+  "private": true
+}
