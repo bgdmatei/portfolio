@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 button {
   position: absolute;
   top: 270px;
@@ -15,9 +15,7 @@ button:hover {
   color: #404140;
   background-color: #fff;
 }
-=======
 
->>>>>>> 34320afc00a93661c115692a7672b6b6c7e7e949
 
 .page-links {
   overflow: hidden;
@@ -125,10 +123,8 @@ button:hover {
   background-color: #404140;
   color: #fff;
   font-size: 16px;
-<<<<<<< HEAD
   left: 18%;
-=======
->>>>>>> 34320afc00a93661c115692a7672b6b6c7e7e949
+
 }
 
 .open {
