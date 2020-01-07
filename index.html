@@ -82,13 +82,14 @@
     <div class="main d-flex justify-content-center" style="background-color: #404140">
         <div class="about text-center d-flex ">
       <img src="img/bog.jpg" alt="profile picture">
-      <h1>Bogdan Matei<br>
-          <hr>
-          Full Stack Developer
-        </h1>
-
-          <button onclick="document.getElementById('details').classList.toggle('open');">About</button>
-
+      <div>
+        <h1>Bogdan Matei</h1>
+        <hr>
+        <h4>Full Stack Developer</h4>
+      </div>
+        <div class="about-button">
+          <a href="#" onclick="toggleCascade()"><span></span>About</a>
+        </div>
 
         <ul class="list-inline socials">
           <li><a href="https://www.linkedin.com/in/mateibogdan/"><i class="fab fa-linkedin"></i></a></li>
@@ -97,8 +98,7 @@
         </ul>
         </div>
         <div id="details">
-        <p>Graduate of Le Wagon Web Development bootcamp, and now a Junior Fullstack Web Developer. I am creative and love designing. A strong team player but also capable of working on my own, I am very eager to learn about new technologies. Currently, I'm based in Tokyo where I'm looking for other exciting opportunities.
-      Don't hesitate to contact me if you have any questions about me or my projects.</p>
+        <p>I am a full stack web developer specialising in Ruby on Rails and JavaScript, eager to gain more experience in the field. I have always been interested in computers and programming as a medium that allows to create visual and virtual contents out of mere strings of characters. As I further studied programming, it also led me to realise its capability to improve situations that is tightly connected to our everyday lives, whether for fun, productivity or profit. For these reasons, I am looking for a company willing to offer me a placement among their developers so that I can be part of a team keen to further enhance the experience of its users.</p>
 
       </div>
       </div>
@@ -111,6 +111,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/5b2af09fbd.js" crossorigin="anonymous"></script>
   <script>
+    function toggleCascade() {
+      document.getElementById('details').classList.toggle('open');
+    }
+
     /* Open */
     function ronpaOpen() {
       document.getElementById("ronpaNav").style.height = "100%";
