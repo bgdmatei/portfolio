@@ -2,7 +2,7 @@
 .about-button a {
   position: absolute;
   top: 80%;
-  left: 55%;
+  left: 50%;
   transform: translate(-50%, -50%);
   padding: 4px 20px;
   transition: 0.5s;
@@ -81,25 +81,21 @@
   width: 100%;
   color: #fff;
   padding: 32px;
-  box-shadow: 0 0 6px rgba(0,0,0,0.6);
+  /*box-shadow: 0 0 6px rgba(0,0,0,0.6);*/
 }
 
 .main img {
   width: 218px;
   border: 4px solid #fff;
   border-radius: 50%;
-  margin-right: 8rem;
+  margin-right: 7rem;
  }
 
  .about {
   align-items: center;
   margin: 32px;
+  margin-right: 12em;
  }
-
-
-.nav {
-  padding-left: 6em;
-}
 
 .nav a {
   text-decoration: none;
@@ -173,35 +169,40 @@ body {
 #details  {
   position: absolute;
   top: 35%;
+  left: 20%;
   color: #212121;
   transition: 0.5s;
   transition-timing-function: ease-out;
-  width: 70%;
-  height: 70%;
+  width: 60%;
+  height: 78%;
   z-index: -10;
   border: 1px solid black;
   padding: 32px;
   background-color: #404140;
   color: #fff;
-  font-size: 16px;
-  left: 18%;
+  font-size: 14px;
   text-align: center;
 }
 
-.kills {
+#details p {
+  margin-top: 18px;
+}
+
+#details h2 {
   position: absolute;
-  top: 300px;
-  left: 0;
+  top: 84%;
+  left: 26%;
+  font-size: 24px;
 }
 
 .open {
   position: fixed;
   z-index: -10;
-  transform: translate(10px, 200px);
+  transform: translate(0px, 200px);
   transition: 0.5s ;
   transition-timing-function: ease-in ;
-  width: 70%;
-  box-shadow: 0 0 6px rgba(0,0,0,0.6);
+  width: 60%;
+  /*box-shadow: 0 0 6px rgba(0,0,0,0.6);*/
 }
 
 /* The navigation links inside the overlay */
