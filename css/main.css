@@ -1,3 +1,4 @@
+
 /*  ABOUT BUTTON */
 .about-button a {
   position: absolute;
@@ -88,7 +89,7 @@
   width: 218px;
   border: 4px solid #fff;
   border-radius: 50%;
-  margin-right: 7rem;
+  margin-right: 7em;
  }
 
  .about {
@@ -101,14 +102,24 @@
   text-decoration: none;
   color: #212121;
   margin: 16px;
-  font-size: 32px;
-
+  font-size: 18px;
  }
 
 .nav a:hover {
   color: #BF4743;
   transition: all .3s ease-in-out;
 }
+
+
+.navbar-lewagon {
+  justify-content: flex-end;
+  background: white;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
 
 .socials li {
   font-size: 32px;
