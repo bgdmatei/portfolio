@@ -12,99 +12,42 @@
   <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-  <div>
-    <div class="navbar ">
-        <ul class="nav mt-5">
-          <li class="nav-item">
-            <a class="menu_link" href="projects.html" >Projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" onclick="window.open('Bogdan Matei.pdf')"> Resume </a>
-          </li>
-        </ul>
-    </div>
+  <div class="navbar ">
+    <ul class="nav mt-5 mr-5">
+      <li class="nav-item">
+        <a class="link" href="projects.html" >Projects</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="link" onclick="window.open('Bogdan Matei.pdf')"> Resume </a>
+      </li>
+    </ul>
+  </div>
 
-    <!-- The ronpa project overlay -->
-    <div id="ronpaNav" class="overlay">
-      <!-- Button to close the overlay navigation -->
-      <a href="javascript:void(0)" class="closebtn" onclick="ronpaClose()">&times</a>
-      <!-- Overlay content -->
-      <div class="overlay-content">
-        <div class="container">
-        <div class=" project">
-          <h1>RONPA!</h1>
-            <img src="#" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End of ronpa project overlay -->
-
-    <!-- The swapsies project overlay -->
-    <div id="swapsiesNav" class="overlay">
-      <!-- Button to close the overlay navigation -->
-      <a href="javascript:void(0)" class="closebtn" onclick="swapsiesClose()">&times</a>
-      <!-- Overlay content -->
-      <div class="overlay-content">
-        <div class="container">
-        <div class=" project mb-5">
-          <h1>Swapsies</h1>
-            <p> PROJECT OVERVIEW:
-              Fully-animated RPG created in Rails to make learning the basics of Ruby more fun and exciting. Features working combat, equipment, leveling/experience, and leaderboard systems.
-
-              CONCEPT:
-              During my time as a student at Le Wagon, I would often practice multiple-choice flashcards while not at school in order to reinforce what I learned. Although helpful, flashcards are not exactly the most exciting activity. Thus, after a brief discussion with two classmates, Code Wizard was born - a web app which gamifies multiple choice flashcards.
-
-              CHALLENGES & SOLUTIONS:
-              The biggest challenge in creating Code Wizard was ensuring the battle logic and associated animations worked as intended. This was difficult because we wanted to ensure data and the view was being updated without refreshing the page.
-
-
-              To overcome this, we used JavaScript to render partials for each of the core "pages" (leaderboard, shop, profile) and the question logic (advance to next question or repeat question), as well as used gifs to animate the movement and attack actions.
-
-              Fully-animated RPG created in Rails to make learning the basics of Ruby more fun and exciting. Features working combat, equipment, leveling/experience, and leaderboard systems.
-
-              CONCEPT:
-              During my time as a student at Le Wagon, I would often practice multiple-choice flashcards while not at school in order to reinforce what I learned. Although helpful, flashcards are not exactly the most exciting activity. Thus, after a brief discussion with two classmates, Code Wizard was born - a web app which gamifies multiple choice flashcards.
-
-              CHALLENGES & SOLUTIONS:
-              The biggest challenge in creating Code Wizard was ensuring the battle logic and associated animations worked as intended. This was difficult because we wanted to ensure data and the view was being updated without refreshing the page.
-
-
-              To overcome this, we used JavaS
-            </p>
-            <img src="#" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End of swapsies project overlay -->
-
-    <div class="main d-flex justify-content-center" >
-        <div class="about text-center d-flex ">
+  <div class="main d-flex" >
+    <div class="about text-center d-flex ">
       <img src="img/bog.jpg" alt="profile picture">
       <div>
         <h1>Bogdan Matei</h1>
         <hr>
         <h4>Full Stack Developer</h4>
       </div>
-        <div class="about-button">
-          <a href="#" onclick="toggleCascade()"><span></span>About</a>
-        </div>
-
+      <div class="about-button">
+        <a href="#" onclick="toggleCascade()"><span></span>About</a>
+      </div>
+      <div>
         <ul class="list-inline socials">
           <li><a href="https://www.linkedin.com/in/mateibogdan/"><i class="fab fa-linkedin"></i></a></li>
-        <li><a href="https://github.com/bgdmatei"><i class="fab fa-github"></i></a></li>
+          <li><a href="https://github.com/bgdmatei"><i class="fab fa-github"></i></a></li>
           <li><a href="mailto: matei90bogdan@yahoo.com"><i class="fas fa-envelope"></i></a></li>
         </ul>
-        </div>
-        <div id="details">
-          <p>I am a full stack web developer specialising in Ruby on Rails and JavaScript, eager to gain more experience in the field. I have always been interested in computers and programming as a medium that allows to create visual and virtual contents out of mere strings of characters. As I further studied programming, it also led me to realise its capability to improve situations that is tightly connected to our everyday lives, whether for fun, productivity or profit. For these reasons, I am looking for a company willing to offer me a placement among their developers so that I can be part of a team keen to further enhance the experience of its users.</p>
+      </div>
+      <div class="flex-grow-1" id="details">
+        <p>I am a full stack web developer specialising in Ruby on Rails and JavaScript, eager to gain more experience in the field. I have always been interested in computers and programming as a medium that allows to create visual and virtual contents out of mere strings of characters. As I further studied programming, it also led me to realise its capability to improve situations that is tightly connected to our everyday lives, whether for fun, productivity or profit. For these reasons, I am looking for a company willing to offer me a placement among their developers so that I can be part of a team keen to further enhance the experience of its users.</p>
+        <div class="skills">
           <h2> HTML/CSS | JavaScript | Ruby on Rails | SQL</h2>
+        </div>
       </div>
-      </div>
-
-
-
+    </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -115,21 +58,6 @@
       document.getElementById('details').classList.toggle('open');
     }
 
-    /* Open */
-    function ronpaOpen() {
-      document.getElementById("ronpaNav").style.height = "100%";
-    }
-    function swapsiesOpen() {
-      document.getElementById("swapsiesNav").style.height = "100%";
-    }
-
-    /* Close */
-    function ronpaClose() {
-      document.getElementById("ronpaNav").style.height = "0%";
-    }
-    function swapsiesClose() {
-      document.getElementById("swapsiesNav").style.height = "0%";
-    }
   </script>
 </body>
 </html>
