@@ -180,17 +180,20 @@ body {
 
 @media (max-width: 768px) {
     .avatar img {
-      width: 218px;
+      width: 150px;
       border-radius: 50%;
-      margin-left: 40px
+      margin-left: 40px;
     }
+
     .name-column {
       margin-top: 3em;
     }
+
     .socials ul {
       display: flex;
       margin-bottom: 24px;
     }
+
     .socials li {
     font-size: 32px;
     margin-left: 57px;
