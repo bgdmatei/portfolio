@@ -18,6 +18,25 @@
   transition: all .3s ease-in-out;
 }
 
+.nav-list-projects {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin-right: 3rem;
+}
+
+.nav-list-projects a {
+  text-decoration: none;
+  color: #212121;
+  margin: 16px;
+  font-size: 18px;
+}
+
+.nav-list-projects a:hover {
+  /*color: #BF4743;*/
+  transition: all .3s ease-in-out;
+}
+
 .navbar {
   justify-content: flex-end;
   background: #fff;
