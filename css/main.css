@@ -23,7 +23,7 @@ body {
 }
 
 .avatar img {
-  width: 218px;
+  height: 218px;
   /*border: 4px solid #fff;*/
   border-radius: 50%;
   margin-right: 7em;
