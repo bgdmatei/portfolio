@@ -129,7 +129,7 @@ body {
 
     .about-button a {
     position: absolute;
-    top: 96%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 4px 20px;
@@ -142,7 +142,7 @@ body {
 
     #details {
       position: absolute;
-      top: 16%;
+      top: 18%;
       left: 5%;
       color: #fff;
       transition: 0.5s;
@@ -206,7 +206,7 @@ body {
 
     .about-button a {
     position: absolute;
-    top: 96%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 4px 20px;
@@ -215,11 +215,12 @@ body {
     text-decoration: none;
     background: #fff;
     color: #fff;
+    pointer-events: none;
     }
 
     #details {
       position: absolute;
-      top: 16%;
+      top: 98%;
       left: 5%;
       color: #fff;
       transition: 0.5s;
@@ -244,14 +245,9 @@ body {
       top: 88%;
       left: 0;
     }
-    .open {
-      position: fixed;
-      z-index: -10;
-      transform: translate(0px, 420px);
-      transition: 0.5s ;
-      transition-timing-function: ease-in ;
-      width: 60%;
-  /*box-shadow: 0 0 6px rgba(0,0,0,0.6);*/
-}
+
+    .nav-list {
+      margin-right: 1.5rem;
+    }
   }
 

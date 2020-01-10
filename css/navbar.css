@@ -3,6 +3,7 @@
   display: flex;
   list-style-type: none;
   align-items: center;
+  margin-right: 3rem;
 }
 
 .nav-list a {
