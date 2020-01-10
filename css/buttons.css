@@ -1,0 +1,110 @@
+/*  ABOUT BUTTON */
+.about-button a {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 4px 20px;
+  transition: 0.5s;
+  overflow: hidden;
+  text-decoration: none;
+  background: #fff;
+  color: #fff;
+}
+
+.about-button a:hover {
+  color: #212121;
+}
+
+.about-button a:before {
+  content: '';
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #212121;
+  z-index: -1;
+  transition: 0.5s;
+  box-sizing: border-box;
+}
+
+.about-button a:hover:before {
+  top: calc(100% - 1px);
+}
+
+.about-button a:after {
+  content: '';
+  position:absolute;
+  top: calc(-100% + 1px);;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  background: #212121;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.about-button a:hover:after {
+  left: 0;
+  transition-delay: 0.5s;
+}
+
+.about-button span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-left: 1px solid #212121;
+  border-right: 1px solid #212121;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: 0.5s;
+}
+
+.about-button a:hover span {
+  transform: scaleY(1);
+  transition-delay: 1s;
+}
+/* END ABOUT BUTTON */
+
+
+/* Navbar link effects */
+
+.nav-item{
+  transform: translate(-50%);
+}
+
+.link{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+}
+
+.link::after{
+  content: "";
+  background: #212121;
+  mix-blend-mode: exclusion;
+  width: calc(100% + 20px);
+  height: 0;
+  position: absolute;
+  bottom: -6px;
+  left: -10px;
+  transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.link:hover {
+  color: #fff;
+}
+
+.link:hover::after{
+  height: calc(100% + 8px);
+}
+
+/* End of navbar link effects */
+
+
+
+
