@@ -17,11 +17,6 @@
   /*color: #BF4743;*/
   transition: all .3s ease-in-out;
   transform: translate(0%);
-
-}
-
-.nav-item li:hover {
-  transform: translate(-50%);
 }
 
 .nav-list-projects {
@@ -39,15 +34,22 @@
 }
 
 .nav-list-projects a:hover {
-  /*color: #BF4743;*/
   transition: all .3s ease-in-out;
+  /*transform: translate(0%);*/
 }
 
 .navbar {
-  justify-content: flex-end;
+  justify-content: center;
   background: #fff;
+  margin: 0 auto;
+  margin-top: 2em;
+  padding: 0;
 }
 
-.navbar {
-  flex-grow: 0;
+.navbar ul {
+  padding: 0;
+}
+
+.nav-item {
+  transform: translate(0%);
 }
