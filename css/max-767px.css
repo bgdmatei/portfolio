@@ -1,0 +1,42 @@
+@media only screen
+and (min-width : 481px)
+and (max-width : 767px) {
+  .socials ul {
+    display: flex;
+  }
+  .socials li {
+    margin-left: 22%;
+  }
+  .main {
+    height: 510px;
+  }
+  .about-button a {
+    top: 100%;
+    pointer-events: none;
+  }
+  #details {
+    top: 100%;
+    left: 1%;
+    width: 96%;
+    height: 77%;
+  }
+  #details h2 {
+    font-size: 20px;
+  }
+  .skills {
+    left: 10%;
+  }
+  .open {
+    transform: translate(0px, 380px);
+  }
+  .nav-list {
+    /*margin-right: 5.5rem;*/
+  }
+  .image-position {
+    margin-left: 21%;
+    justify-content: center;
+  }
+  .name-column {
+    margin-top: 2em;
+  }
+}

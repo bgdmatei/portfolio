@@ -1,0 +1,17 @@
+@media only screen
+and (min-width : 1025px)
+and (max-width : 1223px) {
+  #details {
+    left: 17%;
+    width: 63%;
+    top: 28%;
+    height: 95%;
+  }
+  .avatar {
+    justify-content: center;
+  }
+  .skills {
+    left: 20%;
+  }
+}
+
