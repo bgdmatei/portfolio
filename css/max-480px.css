@@ -70,6 +70,9 @@ and (max-width : 480px) {
     top: 87%;
     left: 0;
   }
+  .skills h2 {
+    font-size: 20px;
+  }
 
   .nav-list-projects {
     margin-right: -0.5rem;
