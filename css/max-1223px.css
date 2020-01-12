@@ -2,19 +2,19 @@
 and (min-width : 1024px)
 and (max-width : 1223px) {
   #details {
-    left: 17%;
-    width: 63%;
-    top: 26%;
-    height: 100%;
-  }
-  #details p {
-    margin-top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 24px;
+    width: 60%;
   }
   .avatar {
     justify-content: center;
   }
   .skills {
-    left: 20%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
   }
 }
 

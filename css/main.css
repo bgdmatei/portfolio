@@ -61,24 +61,24 @@ body {
 
 #details  {
   position: absolute;
-  top: 24%;
-  left: 25%;
-  color: #fff;
-  transition: 0.5s;
-  transition-timing-function: ease-out;
-  width: 47%;
-  height: 100%;
-  z-index: -10;
-  border: 1px solid black;
-  padding: 32px;
-  background-color: #fff;
-  color: #212121;
-  font-size: 15px;
-  text-align: center;
+    top: 20%;
+    /* left: 25%; */
+    color: #fff;
+    transition: 0.5s;
+    transition-timing-function: ease-out;
+    width: 50%;
+    height: 105%;
+    z-index: -10;
+    border: 1px solid black;
+    padding: 32px;
+    background-color: #fff;
+    color: #212121;
+    font-size: 15px;
+    text-align: center;
 }
 
 #details p {
-  margin-top: 12px;
+  margin-top: 24px;
 }
 
 #details h2 {
@@ -91,7 +91,9 @@ body {
 .skills {
   position: absolute;
   top: 82%;
-  left: 22%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 .open {
@@ -133,31 +135,24 @@ and (min-width : 1224px) {
     justify-content: center;
   }
   #details {
-    left: 23%;
-    width: 55%;
-    top: 22%;
+    padding: 24px;
   }
   .skills {
-    left: 20%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;v
   }
 }
 
 @media only screen
 and (min-width : 1680px) {
 
-  #details{
-    left: 25%;
-    width: 50%;
-  }
-  .skills {
-    left: 20%;
-  }
-  .name-column {
+/*  .name-column {
     margin-left: 0;
   }
   .about-button a {
     left: 50%;
-  }
+  }*/
 
 }
 

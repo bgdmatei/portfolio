@@ -24,8 +24,7 @@ and (max-width : 575px) {
 
   .socials li {
     font-size: 32px;
-    margin-left: 17%;
-    margin-top: 1rem;
+    margin: 0 auto;
   }
 
   .main {
@@ -49,14 +48,10 @@ and (max-width : 575px) {
   #details {
     position: absolute;
     top: 98%;
-    left: 5%;
     color: #fff;
-    transition: 0.5s;
-    transition-timing-function: ease-out;
     width: 90%;
-    height: 120%;
+    height: 115%;
     z-index: -10;
-    border: 1px solid black;
     padding: 32px;
     background-color: #fff;
     color: #212121;
@@ -67,10 +62,10 @@ and (max-width : 575px) {
 
   .skills {
     position: absolute;
-    top: 87%;
+    top: 86%;
     left: 0;
   }
-  .skills h2 {
+  #details h2 {
     font-size: 20px;
   }
 
@@ -81,6 +76,6 @@ and (max-width : 575px) {
     justify-content: center;
   }
   .nav-list {
-    margin-right: 3rem;
+    margin: 0 auto;
   }
 }

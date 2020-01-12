@@ -16,9 +16,11 @@
 .nav-list a:hover {
   /*color: #BF4743;*/
   transition: all .3s ease-in-out;
+  transform: translate(0%);
+
 }
 
-.nav-item{
+.nav-item li:hover {
   transform: translate(-50%);
 }
 
