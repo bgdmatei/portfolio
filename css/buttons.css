@@ -70,11 +70,6 @@
 /* END ABOUT BUTTON */
 
 
-/* Navbar link effects */
-
-.nav-item{
-  transform: translate(-50%);
-}
 
 .link{
   display: block;
