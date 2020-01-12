@@ -1,12 +1,9 @@
 @media only screen
-and (min-width : 480px)
+and (min-width : 575px)
 and (max-width : 767px) {
 
   .socials li {
     margin-left: 20%;
-  }
-  .socials ul {
-    display: flex;
   }
 
   .about-button a {
