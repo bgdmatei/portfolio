@@ -5,6 +5,10 @@
 
 body {
   margin: 0;
+  font-family: "Lato";
+}
+
+h1, h2, h3 {
   font-family: "Noto Sans JP";
 }
 

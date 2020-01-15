@@ -83,4 +83,8 @@ and (max-width : 575px) {
   .nav-list {
     margin: 0 auto;
   }
+  .carousel {
+    margin-top: 2em;
+  }
 }
+

@@ -98,9 +98,21 @@
   height: calc(100% + 8px);
 }
 
-
 /* End of navbar link effects */
 
+.link-website {
+  color: #212121;
+  background: #fff;
+  padding: 4px 8px;
+  border-radius: 16px;
+  border: 1px solid #212121;
+  transition: .3s ease-in-out;
+}
 
-
+.link-website:hover {
+  text-decoration: none;
+  color: #fff;
+  background: #212121;
+  transition: .3s ease-in-out;
+}
 

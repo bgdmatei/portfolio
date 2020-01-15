@@ -27,4 +27,7 @@ and (max-width : 768px) {
   .avatar {
     justify-content: space-around;
   }
+  .carousel {
+  margin-top: 2em;
+  }
 }
