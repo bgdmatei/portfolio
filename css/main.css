@@ -5,6 +5,8 @@
 body {
   margin: 0;
   font-family: "Lato";
+  opacity: 0;
+  transition: opacity 2s;
 }
 
 h1, h2, h3 {
